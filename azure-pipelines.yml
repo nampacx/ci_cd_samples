@@ -18,4 +18,4 @@ steps:
     azureSubscription: 'Mcaps'
     scriptType: 'bash'
     scriptLocation: 'inlineScript'
-    inlineScript: 'az deployment sub create --location westeurope --template-file main.bicep'
+    inlineScript: 'az deployment sub create --location westeurope --template-file /src/bicep/storageAccountSample/main.bicep'
