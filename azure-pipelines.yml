@@ -16,6 +16,6 @@ steps:
 - task: AzureCLI@2
   inputs:
     azureSubscription: 'Mcaps'
-    scriptType: 'ps'
+    scriptType: 'bash'
     scriptLocation: 'inlineScript'
     inlineScript: 'az deployment sub create --location westeurope --template-file main.bicep'
